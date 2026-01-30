@@ -1,0 +1,109 @@
+{
+  "FastAPI_Master_Roadmap": {
+    "documentId": "FastAPI_Master_Roadmap",
+    "title": "FastAPI_Master_Roadmap.pdf",
+    "author": "System",
+    "status": "DRAFT",
+    "createdDate": "2026-01-28T07:37:01.706Z",
+    "modifiedDate": "2026-01-28T07:37:01.713Z",
+    "currentVersion": "0.1",
+    "versions": [
+      {
+        "versionNumber": "0.1",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\FastAPI_Master_Roadmap\\v0.1.pdf",
+        "checksum": "712b0e953bd2021b96139196ca010ac79a826d21e4da2f1803f01878fb04e1e0",
+        "createdDate": "2026-01-28T07:37:01.714Z"
+      }
+    ]
+  },
+  
+  "javascript_topics": {
+    "documentId": "javascript_topics",
+    "title": "javascript_topics.pdf",
+    "author": "System",
+    "status": "DRAFT",
+    "createdDate": "2026-01-28T07:38:52.961Z",
+    "modifiedDate": "2026-01-28T07:38:53.008Z",
+    "currentVersion": "0.1",
+    "versions": [
+      {
+        "versionNumber": "0.1",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\javascript_topics\\v0.1.pdf",
+        "checksum": "1fa7677d58b71510507eda58f10115e59a556276468b2466d0f6b71f0fcc9bd1",
+        "createdDate": "2026-01-28T07:38:53.008Z"
+      }
+    ]
+  },
+
+  "prashant_image": {
+    "documentId": "prashant_image",
+    "title": "prashant_image.jpg",
+    "author": "System",
+    "status": "DRAFT",
+    "createdDate": "2026-01-28T07:41:05.896Z",
+    "modifiedDate": "2026-01-28T10:16:30.526Z",
+    "currentVersion": "0.4",
+    "versions": [
+      {
+        "versionNumber": "0.1",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\prashant_image\\v0.1.jpg",
+        "checksum": "41484431fc28e4070b32f57ac332d9253c5b7db78396bfb42c4052cd007927d2",
+        "createdDate": "2026-01-28T07:41:05.903Z"
+      },
+      {
+        "versionNumber": "0.2",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\prashant_image\\v0.2.jpg",
+        "checksum": "41484431fc28e4070b32f57ac332d9253c5b7db78396bfb42c4052cd007927d2",
+        "createdDate": "2026-01-28T07:54:44.831Z"
+      },
+      {
+        "versionNumber": "0.3",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\prashant_image\\v0.3.jpg",
+        "checksum": "41484431fc28e4070b32f57ac332d9253c5b7db78396bfb42c4052cd007927d2",
+        "createdDate": "2026-01-28T10:16:17.910Z"
+      },
+      {
+        "versionNumber": "0.4",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\prashant_image\\v0.4.jpg",
+        "checksum": "41484431fc28e4070b32f57ac332d9253c5b7db78396bfb42c4052cd007927d2",
+        "createdDate": "2026-01-28T10:16:30.528Z"
+      }
+    ]
+  },
+
+  "Transactions": {
+    "documentId": "Transactions",
+    "title": "Transactions.png",
+    "author": "System",
+    "status": "DRAFT",
+    "createdDate": "2026-01-30T05:53:21.786Z",
+    "modifiedDate": "2026-01-30T05:53:21.796Z",
+    "currentVersion": "0.1",
+    "versions": [
+      {
+        "versionNumber": "0.1",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\Transactions\\v0.1.png",
+        "checksum": "50122cec5bc8691002635f861bca0ade853bf140067a792d698ae7b012cf2ce7",
+        "createdDate": "2026-01-30T05:53:21.796Z"
+      }
+    ]
+  },
+
+  "LeetCode-Profile": {
+    "documentId": "LeetCode-Profile",
+    "title": "LeetCode-Profile.png",
+    "author": "System",
+    "status": "DRAFT",
+    "createdDate": "2026-01-30T05:53:21.804Z",
+    "modifiedDate": "2026-01-30T05:53:21.808Z",
+    "currentVersion": "0.1",
+    "versions": [
+      {
+        "versionNumber": "0.1",
+        "filePath": "D:\\Training\\Legal Tech\\backend\\resources\\uploads\\documents\\LeetCode-Profile\\v0.1.png",
+        "checksum": "5fe84dbe9a39881572bf75063a5fff21c4f6a60da728ed81b149b0ae7267b276",
+        "createdDate": "2026-01-30T05:53:21.808Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,797 @@
+{"level":30,"time":1769693497408,"pid":17648,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769693497409,"pid":17648,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769693498713,"pid":17648,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769693498713,"pid":17648,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769693498713,"pid":17648,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769693521247,"pid":17648,"hostname":"prashant","reqId":"req-1","req":{"method":"GET","url":"/api/client/me","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":57673},"msg":"incoming request"}
+{"level":30,"time":1769693521256,"pid":17648,"hostname":"prashant","reqId":"req-1","userId":1,"msg":"Fetching user profile"}
+{"level":30,"time":1769693521439,"pid":17648,"hostname":"prashant","reqId":"req-1","userId":1,"role":"CLIENT","msg":"User profile fetched successfully"}
+{"level":30,"time":1769693521448,"pid":17648,"hostname":"prashant","reqId":"req-1","res":{"statusCode":200},"responseTime":199.70209991931915,"msg":"request completed"}
+{"level":30,"time":1769693786000,"pid":17648,"hostname":"prashant","reqId":"req-2","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693786003,"pid":17648,"hostname":"prashant","reqId":"req-2","res":{"statusCode":204},"responseTime":1.8624999523162842,"msg":"request completed"}
+{"level":30,"time":1769693786004,"pid":17648,"hostname":"prashant","reqId":"req-3","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693786079,"pid":17648,"hostname":"prashant","reqId":"req-3","res":{"statusCode":200},"responseTime":74.48199999332428,"msg":"request completed"}
+{"level":30,"time":1769693787016,"pid":17648,"hostname":"prashant","reqId":"req-4","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693787017,"pid":17648,"hostname":"prashant","reqId":"req-4","res":{"statusCode":204},"responseTime":0.8825000524520874,"msg":"request completed"}
+{"level":30,"time":1769693787019,"pid":17648,"hostname":"prashant","reqId":"req-5","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693787025,"pid":17648,"hostname":"prashant","reqId":"req-5","res":{"statusCode":200},"responseTime":5.940400004386902,"msg":"request completed"}
+{"level":30,"time":1769693787608,"pid":17648,"hostname":"prashant","reqId":"req-6","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693787609,"pid":17648,"hostname":"prashant","reqId":"req-6","res":{"statusCode":204},"responseTime":0.597100019454956,"msg":"request completed"}
+{"level":30,"time":1769693787610,"pid":17648,"hostname":"prashant","reqId":"req-7","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693787615,"pid":17648,"hostname":"prashant","reqId":"req-7","res":{"statusCode":200},"responseTime":4.549499988555908,"msg":"request completed"}
+{"level":30,"time":1769693788694,"pid":17648,"hostname":"prashant","reqId":"req-8","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693788699,"pid":17648,"hostname":"prashant","reqId":"req-8","res":{"statusCode":200},"responseTime":4.059200048446655,"msg":"request completed"}
+{"level":30,"time":1769693789784,"pid":17648,"hostname":"prashant","reqId":"req-9","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693789790,"pid":17648,"hostname":"prashant","reqId":"req-9","res":{"statusCode":200},"responseTime":6.130299925804138,"msg":"request completed"}
+{"level":30,"time":1769693790239,"pid":17648,"hostname":"prashant","reqId":"req-a","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693790240,"pid":17648,"hostname":"prashant","reqId":"req-a","res":{"statusCode":204},"responseTime":0.6864999532699585,"msg":"request completed"}
+{"level":30,"time":1769693790241,"pid":17648,"hostname":"prashant","reqId":"req-b","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63557},"msg":"incoming request"}
+{"level":30,"time":1769693790246,"pid":17648,"hostname":"prashant","reqId":"req-b","res":{"statusCode":200},"responseTime":4.318699955940247,"msg":"request completed"}
+{"level":30,"time":1769694981263,"pid":17648,"hostname":"prashant","reqId":"req-c","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981265,"pid":17648,"hostname":"prashant","reqId":"req-c","res":{"statusCode":204},"responseTime":1.2028000354766846,"msg":"request completed"}
+{"level":30,"time":1769694981267,"pid":17648,"hostname":"prashant","reqId":"req-d","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981325,"pid":17648,"hostname":"prashant","reqId":"req-d","res":{"statusCode":200},"responseTime":57.589200019836426,"msg":"request completed"}
+{"level":30,"time":1769694981551,"pid":17648,"hostname":"prashant","reqId":"req-e","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981552,"pid":17648,"hostname":"prashant","reqId":"req-e","res":{"statusCode":204},"responseTime":0.5383000373840332,"msg":"request completed"}
+{"level":30,"time":1769694981553,"pid":17648,"hostname":"prashant","reqId":"req-f","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981559,"pid":17648,"hostname":"prashant","reqId":"req-f","res":{"statusCode":200},"responseTime":5.147499918937683,"msg":"request completed"}
+{"level":30,"time":1769694981781,"pid":17648,"hostname":"prashant","reqId":"req-g","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981781,"pid":17648,"hostname":"prashant","reqId":"req-g","res":{"statusCode":204},"responseTime":0.41489994525909424,"msg":"request completed"}
+{"level":30,"time":1769694981782,"pid":17648,"hostname":"prashant","reqId":"req-h","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694981787,"pid":17648,"hostname":"prashant","reqId":"req-h","res":{"statusCode":200},"responseTime":4.675899982452393,"msg":"request completed"}
+{"level":30,"time":1769694982670,"pid":17648,"hostname":"prashant","reqId":"req-i","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63273},"msg":"incoming request"}
+{"level":30,"time":1769694982675,"pid":17648,"hostname":"prashant","reqId":"req-i","res":{"statusCode":200},"responseTime":4.396199941635132,"msg":"request completed"}
+{"level":30,"time":1769695518885,"pid":25936,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769695518886,"pid":25936,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769695520813,"pid":25936,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769695520813,"pid":25936,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769695520813,"pid":25936,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769747110674,"pid":21936,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769747110674,"pid":21936,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769747112026,"pid":21936,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769747112026,"pid":21936,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769747112026,"pid":21936,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769747135116,"pid":21936,"hostname":"prashant","reqId":"req-1","req":{"method":"OPTIONS","url":"/api/client/intakes?status=PENDING&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51254},"msg":"incoming request"}
+{"level":30,"time":1769747135130,"pid":21936,"hostname":"prashant","reqId":"req-1","res":{"statusCode":204},"responseTime":11.90090000629425,"msg":"request completed"}
+{"level":30,"time":1769747135131,"pid":21936,"hostname":"prashant","reqId":"req-2","req":{"method":"OPTIONS","url":"/api/client/intakes?status=APPROVED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747135132,"pid":21936,"hostname":"prashant","reqId":"req-2","res":{"statusCode":204},"responseTime":0.7423000335693359,"msg":"request completed"}
+{"level":30,"time":1769747135133,"pid":21936,"hostname":"prashant","reqId":"req-3","req":{"method":"OPTIONS","url":"/api/client/intakes?status=REJECTED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747135134,"pid":21936,"hostname":"prashant","reqId":"req-3","res":{"statusCode":204},"responseTime":0.489300012588501,"msg":"request completed"}
+{"level":30,"time":1769747135134,"pid":21936,"hostname":"prashant","reqId":"req-4","req":{"method":"OPTIONS","url":"/api/client/intakes?status=PENDING&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51254},"msg":"incoming request"}
+{"level":30,"time":1769747135136,"pid":21936,"hostname":"prashant","reqId":"req-4","res":{"statusCode":204},"responseTime":0.942599892616272,"msg":"request completed"}
+{"level":30,"time":1769747135138,"pid":21936,"hostname":"prashant","reqId":"req-5","req":{"method":"OPTIONS","url":"/api/client/me","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51526},"msg":"incoming request"}
+{"level":30,"time":1769747135139,"pid":21936,"hostname":"prashant","reqId":"req-5","res":{"statusCode":204},"responseTime":0.7266000509262085,"msg":"request completed"}
+{"level":30,"time":1769747135140,"pid":21936,"hostname":"prashant","reqId":"req-6","req":{"method":"OPTIONS","url":"/api/client/intakes?status=APPROVED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747135141,"pid":21936,"hostname":"prashant","reqId":"req-6","res":{"statusCode":204},"responseTime":0.6362999677658081,"msg":"request completed"}
+{"level":30,"time":1769747135141,"pid":21936,"hostname":"prashant","reqId":"req-7","req":{"method":"OPTIONS","url":"/api/client/intakes?status=IN_REVIEW&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747135142,"pid":21936,"hostname":"prashant","reqId":"req-7","res":{"statusCode":204},"responseTime":0.4948999881744385,"msg":"request completed"}
+{"level":30,"time":1769747135143,"pid":21936,"hostname":"prashant","reqId":"req-8","req":{"method":"OPTIONS","url":"/api/client/me","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747135144,"pid":21936,"hostname":"prashant","reqId":"req-8","res":{"statusCode":204},"responseTime":0.5654000043869019,"msg":"request completed"}
+{"level":30,"time":1769747135145,"pid":21936,"hostname":"prashant","reqId":"req-9","req":{"method":"OPTIONS","url":"/api/client/intakes?status=REJECTED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747135146,"pid":21936,"hostname":"prashant","reqId":"req-9","res":{"statusCode":204},"responseTime":0.7637999057769775,"msg":"request completed"}
+{"level":30,"time":1769747135147,"pid":21936,"hostname":"prashant","reqId":"req-a","req":{"method":"OPTIONS","url":"/api/client/intakes?status=IN_REVIEW&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51254},"msg":"incoming request"}
+{"level":30,"time":1769747135148,"pid":21936,"hostname":"prashant","reqId":"req-a","res":{"statusCode":204},"responseTime":0.5874000787734985,"msg":"request completed"}
+{"level":30,"time":1769747135149,"pid":21936,"hostname":"prashant","reqId":"req-b","req":{"method":"GET","url":"/api/client/intakes?status=PENDING&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51526},"msg":"incoming request"}
+{"level":30,"time":1769747135171,"pid":21936,"hostname":"prashant","reqId":"req-c","req":{"method":"GET","url":"/api/client/intakes?status=APPROVED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747135175,"pid":21936,"hostname":"prashant","reqId":"req-d","req":{"method":"GET","url":"/api/client/intakes?status=REJECTED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747135179,"pid":21936,"hostname":"prashant","reqId":"req-e","req":{"method":"GET","url":"/api/client/me","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747135180,"pid":21936,"hostname":"prashant","reqId":"req-e","userId":1,"msg":"Fetching user profile"}
+{"level":30,"time":1769747135184,"pid":21936,"hostname":"prashant","reqId":"req-f","req":{"method":"GET","url":"/api/client/intakes?status=IN_REVIEW&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747135283,"pid":21936,"hostname":"prashant","reqId":"req-b","res":{"statusCode":200},"responseTime":134.1712999343872,"msg":"request completed"}
+{"level":30,"time":1769747135285,"pid":21936,"hostname":"prashant","reqId":"req-c","res":{"statusCode":200},"responseTime":113.96710002422333,"msg":"request completed"}
+{"level":30,"time":1769747135287,"pid":21936,"hostname":"prashant","reqId":"req-d","res":{"statusCode":200},"responseTime":111.61360001564026,"msg":"request completed"}
+{"level":30,"time":1769747135289,"pid":21936,"hostname":"prashant","reqId":"req-g","req":{"method":"GET","url":"/api/client/intakes?status=PENDING&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51526},"msg":"incoming request"}
+{"level":30,"time":1769747135294,"pid":21936,"hostname":"prashant","reqId":"req-f","res":{"statusCode":200},"responseTime":109.66620004177094,"msg":"request completed"}
+{"level":30,"time":1769747135295,"pid":21936,"hostname":"prashant","reqId":"req-h","req":{"method":"GET","url":"/api/client/intakes?status=APPROVED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747135296,"pid":21936,"hostname":"prashant","reqId":"req-i","req":{"method":"GET","url":"/api/client/intakes?status=REJECTED&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747135300,"pid":21936,"hostname":"prashant","reqId":"req-j","req":{"method":"GET","url":"/api/client/intakes?status=IN_REVIEW&page=1&limit=1","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747135309,"pid":21936,"hostname":"prashant","reqId":"req-g","res":{"statusCode":200},"responseTime":19.978699922561646,"msg":"request completed"}
+{"level":30,"time":1769747135314,"pid":21936,"hostname":"prashant","reqId":"req-h","res":{"statusCode":200},"responseTime":18.84689998626709,"msg":"request completed"}
+{"level":30,"time":1769747135319,"pid":21936,"hostname":"prashant","reqId":"req-i","res":{"statusCode":200},"responseTime":22.596699953079224,"msg":"request completed"}
+{"level":30,"time":1769747135322,"pid":21936,"hostname":"prashant","reqId":"req-j","res":{"statusCode":200},"responseTime":21.636300086975098,"msg":"request completed"}
+{"level":30,"time":1769747135366,"pid":21936,"hostname":"prashant","reqId":"req-e","userId":1,"role":"CLIENT","msg":"User profile fetched successfully"}
+{"level":30,"time":1769747135367,"pid":21936,"hostname":"prashant","reqId":"req-e","res":{"statusCode":200},"responseTime":187.8192000389099,"msg":"request completed"}
+{"level":30,"time":1769747135368,"pid":21936,"hostname":"prashant","reqId":"req-k","req":{"method":"GET","url":"/api/client/me","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747135369,"pid":21936,"hostname":"prashant","reqId":"req-k","userId":1,"msg":"Fetching user profile"}
+{"level":30,"time":1769747135372,"pid":21936,"hostname":"prashant","reqId":"req-k","userId":1,"role":"CLIENT","msg":"User profile fetched successfully"}
+{"level":30,"time":1769747135373,"pid":21936,"hostname":"prashant","reqId":"req-k","res":{"statusCode":200},"responseTime":4.41539990901947,"msg":"request completed"}
+{"level":30,"time":1769747139025,"pid":21936,"hostname":"prashant","reqId":"req-l","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747139025,"pid":21936,"hostname":"prashant","reqId":"req-l","res":{"statusCode":204},"responseTime":0.4709000587463379,"msg":"request completed"}
+{"level":30,"time":1769747139026,"pid":21936,"hostname":"prashant","reqId":"req-m","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747139026,"pid":21936,"hostname":"prashant","reqId":"req-m","res":{"statusCode":204},"responseTime":0.27950000762939453,"msg":"request completed"}
+{"level":30,"time":1769747139026,"pid":21936,"hostname":"prashant","reqId":"req-n","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747139027,"pid":21936,"hostname":"prashant","reqId":"req-n","res":{"statusCode":204},"responseTime":0.28369998931884766,"msg":"request completed"}
+{"level":30,"time":1769747139027,"pid":21936,"hostname":"prashant","reqId":"req-o","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747139027,"pid":21936,"hostname":"prashant","reqId":"req-o","res":{"statusCode":204},"responseTime":0.2891000509262085,"msg":"request completed"}
+{"level":30,"time":1769747139028,"pid":21936,"hostname":"prashant","reqId":"req-p","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747139039,"pid":21936,"hostname":"prashant","reqId":"req-p","res":{"statusCode":200},"responseTime":11.142799973487854,"msg":"request completed"}
+{"level":30,"time":1769747139041,"pid":21936,"hostname":"prashant","reqId":"req-q","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747139046,"pid":21936,"hostname":"prashant","reqId":"req-q","res":{"statusCode":200},"responseTime":4.418600082397461,"msg":"request completed"}
+{"level":30,"time":1769747139047,"pid":21936,"hostname":"prashant","reqId":"req-r","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747139051,"pid":21936,"hostname":"prashant","reqId":"req-r","res":{"statusCode":200},"responseTime":3.6664000749588013,"msg":"request completed"}
+{"level":30,"time":1769747139052,"pid":21936,"hostname":"prashant","reqId":"req-s","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747139055,"pid":21936,"hostname":"prashant","reqId":"req-s","res":{"statusCode":200},"responseTime":3.2723000049591064,"msg":"request completed"}
+{"level":30,"time":1769747142872,"pid":21936,"hostname":"prashant","reqId":"req-t","req":{"method":"OPTIONS","url":"/api/client/intakes/22","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747142873,"pid":21936,"hostname":"prashant","reqId":"req-t","res":{"statusCode":204},"responseTime":0.4808000326156616,"msg":"request completed"}
+{"level":30,"time":1769747142873,"pid":21936,"hostname":"prashant","reqId":"req-u","req":{"method":"OPTIONS","url":"/api/client/intakes/22","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747142873,"pid":21936,"hostname":"prashant","reqId":"req-u","res":{"statusCode":204},"responseTime":0.29579997062683105,"msg":"request completed"}
+{"level":30,"time":1769747142876,"pid":21936,"hostname":"prashant","reqId":"req-v","req":{"method":"GET","url":"/api/client/intakes/22","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747142881,"pid":21936,"hostname":"prashant","reqId":"req-v","res":{"statusCode":200},"responseTime":4.621399998664856,"msg":"request completed"}
+{"level":30,"time":1769747142883,"pid":21936,"hostname":"prashant","reqId":"req-w","req":{"method":"GET","url":"/api/client/intakes/22","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747142886,"pid":21936,"hostname":"prashant","reqId":"req-w","res":{"statusCode":200},"responseTime":3.473199963569641,"msg":"request completed"}
+{"level":30,"time":1769747146228,"pid":21936,"hostname":"prashant","reqId":"req-x","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52766},"msg":"incoming request"}
+{"level":30,"time":1769747146229,"pid":21936,"hostname":"prashant","reqId":"req-x","res":{"statusCode":204},"responseTime":0.6416000127792358,"msg":"request completed"}
+{"level":30,"time":1769747146229,"pid":21936,"hostname":"prashant","reqId":"req-y","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146230,"pid":21936,"hostname":"prashant","reqId":"req-y","res":{"statusCode":204},"responseTime":0.49250006675720215,"msg":"request completed"}
+{"level":30,"time":1769747146231,"pid":21936,"hostname":"prashant","reqId":"req-z","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53710},"msg":"incoming request"}
+{"level":30,"time":1769747146232,"pid":21936,"hostname":"prashant","reqId":"req-z","res":{"statusCode":204},"responseTime":0.5769000053405762,"msg":"request completed"}
+{"level":30,"time":1769747146232,"pid":21936,"hostname":"prashant","reqId":"req-10","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747146232,"pid":21936,"hostname":"prashant","reqId":"req-10","res":{"statusCode":204},"responseTime":0.4829000234603882,"msg":"request completed"}
+{"level":30,"time":1769747146233,"pid":21936,"hostname":"prashant","reqId":"req-11","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146238,"pid":21936,"hostname":"prashant","reqId":"req-11","res":{"statusCode":200},"responseTime":4.484099984169006,"msg":"request completed"}
+{"level":30,"time":1769747146239,"pid":21936,"hostname":"prashant","reqId":"req-12","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146243,"pid":21936,"hostname":"prashant","reqId":"req-12","res":{"statusCode":200},"responseTime":3.8725000619888306,"msg":"request completed"}
+{"level":30,"time":1769747146245,"pid":21936,"hostname":"prashant","reqId":"req-13","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146249,"pid":21936,"hostname":"prashant","reqId":"req-13","res":{"statusCode":200},"responseTime":3.7849000692367554,"msg":"request completed"}
+{"level":30,"time":1769747146250,"pid":21936,"hostname":"prashant","reqId":"req-14","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146254,"pid":21936,"hostname":"prashant","reqId":"req-14","res":{"statusCode":200},"responseTime":3.9390000104904175,"msg":"request completed"}
+{"level":30,"time":1769747146894,"pid":21936,"hostname":"prashant","reqId":"req-15","req":{"method":"OPTIONS","url":"/api/client/intakes/21","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146895,"pid":21936,"hostname":"prashant","reqId":"req-15","res":{"statusCode":204},"responseTime":0.44930005073547363,"msg":"request completed"}
+{"level":30,"time":1769747146895,"pid":21936,"hostname":"prashant","reqId":"req-16","req":{"method":"OPTIONS","url":"/api/client/intakes/21","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747146896,"pid":21936,"hostname":"prashant","reqId":"req-16","res":{"statusCode":204},"responseTime":0.2979999780654907,"msg":"request completed"}
+{"level":30,"time":1769747146896,"pid":21936,"hostname":"prashant","reqId":"req-17","req":{"method":"GET","url":"/api/client/intakes/21","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146899,"pid":21936,"hostname":"prashant","reqId":"req-17","res":{"statusCode":200},"responseTime":2.924999952316284,"msg":"request completed"}
+{"level":30,"time":1769747146901,"pid":21936,"hostname":"prashant","reqId":"req-18","req":{"method":"GET","url":"/api/client/intakes/21","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747146905,"pid":21936,"hostname":"prashant","reqId":"req-18","res":{"statusCode":200},"responseTime":3.337399959564209,"msg":"request completed"}
+{"level":30,"time":1769747148238,"pid":21936,"hostname":"prashant","reqId":"req-19","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747148243,"pid":21936,"hostname":"prashant","reqId":"req-19","res":{"statusCode":200},"responseTime":4.414299964904785,"msg":"request completed"}
+{"level":30,"time":1769747148244,"pid":21936,"hostname":"prashant","reqId":"req-1a","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747148248,"pid":21936,"hostname":"prashant","reqId":"req-1a","res":{"statusCode":200},"responseTime":3.875499963760376,"msg":"request completed"}
+{"level":30,"time":1769747148250,"pid":21936,"hostname":"prashant","reqId":"req-1b","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747148254,"pid":21936,"hostname":"prashant","reqId":"req-1b","res":{"statusCode":200},"responseTime":4.172199964523315,"msg":"request completed"}
+{"level":30,"time":1769747148257,"pid":21936,"hostname":"prashant","reqId":"req-1c","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747148262,"pid":21936,"hostname":"prashant","reqId":"req-1c","res":{"statusCode":200},"responseTime":4.873600006103516,"msg":"request completed"}
+{"level":30,"time":1769747149007,"pid":21936,"hostname":"prashant","reqId":"req-1d","req":{"method":"OPTIONS","url":"/api/client/intakes/18","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747149008,"pid":21936,"hostname":"prashant","reqId":"req-1d","res":{"statusCode":204},"responseTime":0.4205000400543213,"msg":"request completed"}
+{"level":30,"time":1769747149008,"pid":21936,"hostname":"prashant","reqId":"req-1e","req":{"method":"OPTIONS","url":"/api/client/intakes/18","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747149009,"pid":21936,"hostname":"prashant","reqId":"req-1e","res":{"statusCode":204},"responseTime":0.27779996395111084,"msg":"request completed"}
+{"level":30,"time":1769747149009,"pid":21936,"hostname":"prashant","reqId":"req-1f","req":{"method":"GET","url":"/api/client/intakes/18","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747149013,"pid":21936,"hostname":"prashant","reqId":"req-1f","res":{"statusCode":200},"responseTime":2.9620999097824097,"msg":"request completed"}
+{"level":30,"time":1769747149014,"pid":21936,"hostname":"prashant","reqId":"req-1g","req":{"method":"GET","url":"/api/client/intakes/18","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747149017,"pid":21936,"hostname":"prashant","reqId":"req-1g","res":{"statusCode":200},"responseTime":2.7907999753952026,"msg":"request completed"}
+{"level":30,"time":1769747150168,"pid":21936,"hostname":"prashant","reqId":"req-1h","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747150173,"pid":21936,"hostname":"prashant","reqId":"req-1h","res":{"statusCode":200},"responseTime":5.031999945640564,"msg":"request completed"}
+{"level":30,"time":1769747150175,"pid":21936,"hostname":"prashant","reqId":"req-1i","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747150179,"pid":21936,"hostname":"prashant","reqId":"req-1i","res":{"statusCode":200},"responseTime":3.685699939727783,"msg":"request completed"}
+{"level":30,"time":1769747150180,"pid":21936,"hostname":"prashant","reqId":"req-1j","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747150185,"pid":21936,"hostname":"prashant","reqId":"req-1j","res":{"statusCode":200},"responseTime":4.538900017738342,"msg":"request completed"}
+{"level":30,"time":1769747150187,"pid":21936,"hostname":"prashant","reqId":"req-1k","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747150191,"pid":21936,"hostname":"prashant","reqId":"req-1k","res":{"statusCode":200},"responseTime":3.938199996948242,"msg":"request completed"}
+{"level":30,"time":1769747153846,"pid":21936,"hostname":"prashant","reqId":"req-1l","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747153847,"pid":21936,"hostname":"prashant","reqId":"req-1l","res":{"statusCode":204},"responseTime":0.42430007457733154,"msg":"request completed"}
+{"level":30,"time":1769747153847,"pid":21936,"hostname":"prashant","reqId":"req-1m","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747153848,"pid":21936,"hostname":"prashant","reqId":"req-1m","res":{"statusCode":204},"responseTime":0.25259995460510254,"msg":"request completed"}
+{"level":30,"time":1769747153849,"pid":21936,"hostname":"prashant","reqId":"req-1n","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":65494},"msg":"incoming request"}
+{"level":30,"time":1769747153860,"pid":21936,"hostname":"prashant","reqId":"req-1n","res":{"statusCode":200},"responseTime":10.28630006313324,"msg":"request completed"}
+{"level":30,"time":1769747153862,"pid":21936,"hostname":"prashant","reqId":"req-1o","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55438},"msg":"incoming request"}
+{"level":30,"time":1769747153866,"pid":21936,"hostname":"prashant","reqId":"req-1o","res":{"statusCode":200},"responseTime":3.9158999919891357,"msg":"request completed"}
+{"level":30,"time":1769747231418,"pid":21936,"hostname":"prashant","reqId":"req-1p","req":{"method":"OPTIONS","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747231419,"pid":21936,"hostname":"prashant","reqId":"req-1p","res":{"statusCode":204},"responseTime":0.5694000720977783,"msg":"request completed"}
+{"level":30,"time":1769747231423,"pid":21936,"hostname":"prashant","reqId":"req-1q","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":20,"time":1769747231427,"pid":21936,"hostname":"prashant","reqId":"req-1q","msg":"starting multipart parsing"}
+{"level":30,"time":1769747236442,"pid":21936,"hostname":"prashant","reqId":"req-1q","res":{"statusCode":201},"responseTime":5018.563400030136,"msg":"request completed"}
+{"level":30,"time":1769747274964,"pid":21936,"hostname":"prashant","reqId":"req-1r","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747274965,"pid":21936,"hostname":"prashant","reqId":"req-1r","res":{"statusCode":204},"responseTime":0.4695000648498535,"msg":"request completed"}
+{"level":30,"time":1769747274967,"pid":21936,"hostname":"prashant","reqId":"req-1s","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747274968,"pid":21936,"hostname":"prashant","reqId":"req-1s","res":{"statusCode":204},"responseTime":0.45410001277923584,"msg":"request completed"}
+{"level":30,"time":1769747274970,"pid":21936,"hostname":"prashant","reqId":"req-1t","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747274970,"pid":21936,"hostname":"prashant","reqId":"req-1t","res":{"statusCode":204},"responseTime":0.2668999433517456,"msg":"request completed"}
+{"level":30,"time":1769747274971,"pid":21936,"hostname":"prashant","reqId":"req-1u","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747274971,"pid":21936,"hostname":"prashant","reqId":"req-1u","res":{"statusCode":204},"responseTime":0.13239991664886475,"msg":"request completed"}
+{"level":30,"time":1769747274972,"pid":21936,"hostname":"prashant","reqId":"req-1v","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747275023,"pid":21936,"hostname":"prashant","reqId":"req-1v","res":{"statusCode":200},"responseTime":50.75249993801117,"msg":"request completed"}
+{"level":30,"time":1769747275025,"pid":21936,"hostname":"prashant","reqId":"req-1w","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747275028,"pid":21936,"hostname":"prashant","reqId":"req-1w","res":{"statusCode":200},"responseTime":2.8460999727249146,"msg":"request completed"}
+{"level":30,"time":1769747275030,"pid":21936,"hostname":"prashant","reqId":"req-1x","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747275034,"pid":21936,"hostname":"prashant","reqId":"req-1x","res":{"statusCode":200},"responseTime":3.9146000146865845,"msg":"request completed"}
+{"level":30,"time":1769747275036,"pid":21936,"hostname":"prashant","reqId":"req-1y","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747275044,"pid":21936,"hostname":"prashant","reqId":"req-1y","res":{"statusCode":200},"responseTime":7.112100005149841,"msg":"request completed"}
+{"level":30,"time":1769747275955,"pid":21936,"hostname":"prashant","reqId":"req-1z","req":{"method":"OPTIONS","url":"/api/client/intakes/23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747275955,"pid":21936,"hostname":"prashant","reqId":"req-1z","res":{"statusCode":204},"responseTime":0.2574000358581543,"msg":"request completed"}
+{"level":30,"time":1769747275955,"pid":21936,"hostname":"prashant","reqId":"req-20","req":{"method":"OPTIONS","url":"/api/client/intakes/23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747275956,"pid":21936,"hostname":"prashant","reqId":"req-20","res":{"statusCode":204},"responseTime":0.15470004081726074,"msg":"request completed"}
+{"level":30,"time":1769747275960,"pid":21936,"hostname":"prashant","reqId":"req-21","req":{"method":"GET","url":"/api/client/intakes/23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747275968,"pid":21936,"hostname":"prashant","reqId":"req-21","res":{"statusCode":200},"responseTime":8.77209997177124,"msg":"request completed"}
+{"level":30,"time":1769747275972,"pid":21936,"hostname":"prashant","reqId":"req-22","req":{"method":"GET","url":"/api/client/intakes/23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747275974,"pid":21936,"hostname":"prashant","reqId":"req-22","res":{"statusCode":200},"responseTime":2.151599884033203,"msg":"request completed"}
+{"level":30,"time":1769747285928,"pid":21936,"hostname":"prashant","reqId":"req-23","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747285929,"pid":21936,"hostname":"prashant","reqId":"req-23","res":{"statusCode":204},"responseTime":0.45980000495910645,"msg":"request completed"}
+{"level":30,"time":1769747285929,"pid":21936,"hostname":"prashant","reqId":"req-24","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747285929,"pid":21936,"hostname":"prashant","reqId":"req-24","res":{"statusCode":204},"responseTime":0.18809998035430908,"msg":"request completed"}
+{"level":30,"time":1769747285930,"pid":21936,"hostname":"prashant","reqId":"req-25","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747285936,"pid":21936,"hostname":"prashant","reqId":"req-25","res":{"statusCode":200},"responseTime":5.884700059890747,"msg":"request completed"}
+{"level":30,"time":1769747285938,"pid":21936,"hostname":"prashant","reqId":"req-26","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747285942,"pid":21936,"hostname":"prashant","reqId":"req-26","res":{"statusCode":200},"responseTime":4.5605000257492065,"msg":"request completed"}
+{"level":30,"time":1769747287440,"pid":21936,"hostname":"prashant","reqId":"req-27","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=Intake&entityId=23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747287440,"pid":21936,"hostname":"prashant","reqId":"req-27","res":{"statusCode":204},"responseTime":0.4127999544143677,"msg":"request completed"}
+{"level":30,"time":1769747287440,"pid":21936,"hostname":"prashant","reqId":"req-28","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=Intake&entityId=23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747287441,"pid":21936,"hostname":"prashant","reqId":"req-28","res":{"statusCode":204},"responseTime":0.2617999315261841,"msg":"request completed"}
+{"level":30,"time":1769747287442,"pid":21936,"hostname":"prashant","reqId":"req-29","req":{"method":"GET","url":"/api/client/audit-logs?entityType=Intake&entityId=23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747287447,"pid":21936,"hostname":"prashant","reqId":"req-29","res":{"statusCode":200},"responseTime":4.7535001039505005,"msg":"request completed"}
+{"level":30,"time":1769747287448,"pid":21936,"hostname":"prashant","reqId":"req-2a","req":{"method":"GET","url":"/api/client/audit-logs?entityType=Intake&entityId=23","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747287452,"pid":21936,"hostname":"prashant","reqId":"req-2a","res":{"statusCode":200},"responseTime":3.6033999919891357,"msg":"request completed"}
+{"level":30,"time":1769747303502,"pid":21936,"hostname":"prashant","reqId":"req-2b","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747303502,"pid":21936,"hostname":"prashant","reqId":"req-2b","res":{"statusCode":204},"responseTime":0.4601999521255493,"msg":"request completed"}
+{"level":30,"time":1769747303503,"pid":21936,"hostname":"prashant","reqId":"req-2c","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747303504,"pid":21936,"hostname":"prashant","reqId":"req-2c","res":{"statusCode":204},"responseTime":0.3718000650405884,"msg":"request completed"}
+{"level":30,"time":1769747303504,"pid":21936,"hostname":"prashant","reqId":"req-2d","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747303571,"pid":21936,"hostname":"prashant","reqId":"req-2d","res":{"statusCode":200},"responseTime":65.95969998836517,"msg":"request completed"}
+{"level":30,"time":1769747303572,"pid":21936,"hostname":"prashant","reqId":"req-2e","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747303577,"pid":21936,"hostname":"prashant","reqId":"req-2e","res":{"statusCode":200},"responseTime":4.292199969291687,"msg":"request completed"}
+{"level":30,"time":1769747304697,"pid":21936,"hostname":"prashant","reqId":"req-2f","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747304698,"pid":21936,"hostname":"prashant","reqId":"req-2f","res":{"statusCode":204},"responseTime":0.42869997024536133,"msg":"request completed"}
+{"level":30,"time":1769747304699,"pid":21936,"hostname":"prashant","reqId":"req-2g","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747304703,"pid":21936,"hostname":"prashant","reqId":"req-2g","res":{"statusCode":200},"responseTime":3.6563000679016113,"msg":"request completed"}
+{"level":30,"time":1769747305161,"pid":21936,"hostname":"prashant","reqId":"req-2h","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747305161,"pid":21936,"hostname":"prashant","reqId":"req-2h","res":{"statusCode":204},"responseTime":0.399899959564209,"msg":"request completed"}
+{"level":30,"time":1769747305163,"pid":21936,"hostname":"prashant","reqId":"req-2i","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747305166,"pid":21936,"hostname":"prashant","reqId":"req-2i","res":{"statusCode":200},"responseTime":3.2539000511169434,"msg":"request completed"}
+{"level":30,"time":1769747305726,"pid":21936,"hostname":"prashant","reqId":"req-2j","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747305727,"pid":21936,"hostname":"prashant","reqId":"req-2j","res":{"statusCode":204},"responseTime":0.5153999328613281,"msg":"request completed"}
+{"level":30,"time":1769747305728,"pid":21936,"hostname":"prashant","reqId":"req-2k","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747305732,"pid":21936,"hostname":"prashant","reqId":"req-2k","res":{"statusCode":200},"responseTime":3.010300040245056,"msg":"request completed"}
+{"level":30,"time":1769747306635,"pid":21936,"hostname":"prashant","reqId":"req-2l","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747306638,"pid":21936,"hostname":"prashant","reqId":"req-2l","res":{"statusCode":200},"responseTime":3.241900086402893,"msg":"request completed"}
+{"level":30,"time":1769747307340,"pid":21936,"hostname":"prashant","reqId":"req-2m","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747307344,"pid":21936,"hostname":"prashant","reqId":"req-2m","res":{"statusCode":200},"responseTime":3.732800006866455,"msg":"request completed"}
+{"level":30,"time":1769747308468,"pid":21936,"hostname":"prashant","reqId":"req-2n","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747308472,"pid":21936,"hostname":"prashant","reqId":"req-2n","res":{"statusCode":200},"responseTime":3.694999933242798,"msg":"request completed"}
+{"level":30,"time":1769747309132,"pid":21936,"hostname":"prashant","reqId":"req-2o","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747309135,"pid":21936,"hostname":"prashant","reqId":"req-2o","res":{"statusCode":200},"responseTime":3.307800054550171,"msg":"request completed"}
+{"level":30,"time":1769747309339,"pid":21936,"hostname":"prashant","reqId":"req-2p","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747309343,"pid":21936,"hostname":"prashant","reqId":"req-2p","res":{"statusCode":200},"responseTime":3.114699959754944,"msg":"request completed"}
+{"level":30,"time":1769747310890,"pid":21936,"hostname":"prashant","reqId":"req-2q","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=Intake&entityId=8","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747310890,"pid":21936,"hostname":"prashant","reqId":"req-2q","res":{"statusCode":204},"responseTime":0.420199990272522,"msg":"request completed"}
+{"level":30,"time":1769747310891,"pid":21936,"hostname":"prashant","reqId":"req-2r","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=Intake&entityId=8","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747310891,"pid":21936,"hostname":"prashant","reqId":"req-2r","res":{"statusCode":204},"responseTime":0.3452000617980957,"msg":"request completed"}
+{"level":30,"time":1769747310891,"pid":21936,"hostname":"prashant","reqId":"req-2s","req":{"method":"GET","url":"/api/client/audit-logs?entityType=Intake&entityId=8","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747310896,"pid":21936,"hostname":"prashant","reqId":"req-2s","res":{"statusCode":200},"responseTime":4.68149995803833,"msg":"request completed"}
+{"level":30,"time":1769747310897,"pid":21936,"hostname":"prashant","reqId":"req-2t","req":{"method":"GET","url":"/api/client/audit-logs?entityType=Intake&entityId=8","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747310901,"pid":21936,"hostname":"prashant","reqId":"req-2t","res":{"statusCode":200},"responseTime":2.9257999658584595,"msg":"request completed"}
+{"level":30,"time":1769747314340,"pid":21936,"hostname":"prashant","reqId":"req-2u","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747314340,"pid":21936,"hostname":"prashant","reqId":"req-2u","res":{"statusCode":204},"responseTime":0.4128000736236572,"msg":"request completed"}
+{"level":30,"time":1769747314340,"pid":21936,"hostname":"prashant","reqId":"req-2v","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747314341,"pid":21936,"hostname":"prashant","reqId":"req-2v","res":{"statusCode":204},"responseTime":0.23009991645812988,"msg":"request completed"}
+{"level":30,"time":1769747314342,"pid":21936,"hostname":"prashant","reqId":"req-2w","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747314345,"pid":21936,"hostname":"prashant","reqId":"req-2w","res":{"statusCode":200},"responseTime":3.3708999156951904,"msg":"request completed"}
+{"level":30,"time":1769747314347,"pid":21936,"hostname":"prashant","reqId":"req-2x","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747314350,"pid":21936,"hostname":"prashant","reqId":"req-2x","res":{"statusCode":200},"responseTime":3.1035999059677124,"msg":"request completed"}
+{"level":30,"time":1769747316659,"pid":21936,"hostname":"prashant","reqId":"req-2y","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747316660,"pid":21936,"hostname":"prashant","reqId":"req-2y","res":{"statusCode":204},"responseTime":0.3991999626159668,"msg":"request completed"}
+{"level":30,"time":1769747316662,"pid":21936,"hostname":"prashant","reqId":"req-2z","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747316665,"pid":21936,"hostname":"prashant","reqId":"req-2z","res":{"statusCode":200},"responseTime":3.1273999214172363,"msg":"request completed"}
+{"level":30,"time":1769747317139,"pid":21936,"hostname":"prashant","reqId":"req-30","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747317140,"pid":21936,"hostname":"prashant","reqId":"req-30","res":{"statusCode":204},"responseTime":0.4747999906539917,"msg":"request completed"}
+{"level":30,"time":1769747317141,"pid":21936,"hostname":"prashant","reqId":"req-31","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747317145,"pid":21936,"hostname":"prashant","reqId":"req-31","res":{"statusCode":200},"responseTime":3.8007999658584595,"msg":"request completed"}
+{"level":30,"time":1769747320236,"pid":21936,"hostname":"prashant","reqId":"req-32","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747320237,"pid":21936,"hostname":"prashant","reqId":"req-32","res":{"statusCode":204},"responseTime":0.31849992275238037,"msg":"request completed"}
+{"level":30,"time":1769747320238,"pid":21936,"hostname":"prashant","reqId":"req-33","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747320241,"pid":21936,"hostname":"prashant","reqId":"req-33","res":{"statusCode":200},"responseTime":3.4210000038146973,"msg":"request completed"}
+{"level":30,"time":1769747321123,"pid":21936,"hostname":"prashant","reqId":"req-34","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747321126,"pid":21936,"hostname":"prashant","reqId":"req-34","res":{"statusCode":200},"responseTime":3.138700008392334,"msg":"request completed"}
+{"level":30,"time":1769747321812,"pid":21936,"hostname":"prashant","reqId":"req-35","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747321812,"pid":21936,"hostname":"prashant","reqId":"req-35","res":{"statusCode":204},"responseTime":0.37990009784698486,"msg":"request completed"}
+{"level":30,"time":1769747321814,"pid":21936,"hostname":"prashant","reqId":"req-36","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747321817,"pid":21936,"hostname":"prashant","reqId":"req-36","res":{"statusCode":200},"responseTime":3.094499945640564,"msg":"request completed"}
+{"level":30,"time":1769747322315,"pid":21936,"hostname":"prashant","reqId":"req-37","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747322315,"pid":21936,"hostname":"prashant","reqId":"req-37","res":{"statusCode":204},"responseTime":0.3456000089645386,"msg":"request completed"}
+{"level":30,"time":1769747322316,"pid":21936,"hostname":"prashant","reqId":"req-38","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747322320,"pid":21936,"hostname":"prashant","reqId":"req-38","res":{"statusCode":200},"responseTime":3.417199969291687,"msg":"request completed"}
+{"level":30,"time":1769747323284,"pid":21936,"hostname":"prashant","reqId":"req-39","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747323288,"pid":21936,"hostname":"prashant","reqId":"req-39","res":{"statusCode":200},"responseTime":3.6794999837875366,"msg":"request completed"}
+{"level":30,"time":1769747323723,"pid":21936,"hostname":"prashant","reqId":"req-3a","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747323724,"pid":21936,"hostname":"prashant","reqId":"req-3a","res":{"statusCode":204},"responseTime":0.41600000858306885,"msg":"request completed"}
+{"level":30,"time":1769747323725,"pid":21936,"hostname":"prashant","reqId":"req-3b","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747323729,"pid":21936,"hostname":"prashant","reqId":"req-3b","res":{"statusCode":200},"responseTime":3.361299991607666,"msg":"request completed"}
+{"level":30,"time":1769747324779,"pid":21936,"hostname":"prashant","reqId":"req-3c","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747324782,"pid":21936,"hostname":"prashant","reqId":"req-3c","res":{"statusCode":200},"responseTime":3.0784000158309937,"msg":"request completed"}
+{"level":30,"time":1769747325659,"pid":21936,"hostname":"prashant","reqId":"req-3d","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747325662,"pid":21936,"hostname":"prashant","reqId":"req-3d","res":{"statusCode":200},"responseTime":3.442900061607361,"msg":"request completed"}
+{"level":30,"time":1769747326211,"pid":21936,"hostname":"prashant","reqId":"req-3e","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747326211,"pid":21936,"hostname":"prashant","reqId":"req-3e","res":{"statusCode":204},"responseTime":0.38520002365112305,"msg":"request completed"}
+{"level":30,"time":1769747326212,"pid":21936,"hostname":"prashant","reqId":"req-3f","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747326215,"pid":21936,"hostname":"prashant","reqId":"req-3f","res":{"statusCode":200},"responseTime":3.0223000049591064,"msg":"request completed"}
+{"level":30,"time":1769747327419,"pid":21936,"hostname":"prashant","reqId":"req-3g","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747327422,"pid":21936,"hostname":"prashant","reqId":"req-3g","res":{"statusCode":200},"responseTime":3.2085999250411987,"msg":"request completed"}
+{"level":30,"time":1769747329581,"pid":21936,"hostname":"prashant","reqId":"req-3h","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747329581,"pid":21936,"hostname":"prashant","reqId":"req-3h","res":{"statusCode":204},"responseTime":0.420199990272522,"msg":"request completed"}
+{"level":30,"time":1769747329583,"pid":21936,"hostname":"prashant","reqId":"req-3i","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747329586,"pid":21936,"hostname":"prashant","reqId":"req-3i","res":{"statusCode":200},"responseTime":3.2503000497817993,"msg":"request completed"}
+{"level":30,"time":1769747330747,"pid":21936,"hostname":"prashant","reqId":"req-3j","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747330748,"pid":21936,"hostname":"prashant","reqId":"req-3j","res":{"statusCode":204},"responseTime":0.40570008754730225,"msg":"request completed"}
+{"level":30,"time":1769747330749,"pid":21936,"hostname":"prashant","reqId":"req-3k","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747330752,"pid":21936,"hostname":"prashant","reqId":"req-3k","res":{"statusCode":200},"responseTime":3.0698999166488647,"msg":"request completed"}
+{"level":30,"time":1769747331076,"pid":21936,"hostname":"prashant","reqId":"req-3l","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747331080,"pid":21936,"hostname":"prashant","reqId":"req-3l","res":{"statusCode":200},"responseTime":2.996299982070923,"msg":"request completed"}
+{"level":30,"time":1769747333008,"pid":21936,"hostname":"prashant","reqId":"req-3m","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61702},"msg":"incoming request"}
+{"level":30,"time":1769747333009,"pid":21936,"hostname":"prashant","reqId":"req-3m","res":{"statusCode":204},"responseTime":0.46389997005462646,"msg":"request completed"}
+{"level":30,"time":1769747333009,"pid":21936,"hostname":"prashant","reqId":"req-3n","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747333009,"pid":21936,"hostname":"prashant","reqId":"req-3n","res":{"statusCode":204},"responseTime":0.2802000045776367,"msg":"request completed"}
+{"level":30,"time":1769747333011,"pid":21936,"hostname":"prashant","reqId":"req-3o","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747333015,"pid":21936,"hostname":"prashant","reqId":"req-3o","res":{"statusCode":200},"responseTime":3.8345999717712402,"msg":"request completed"}
+{"level":30,"time":1769747333017,"pid":21936,"hostname":"prashant","reqId":"req-3p","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56315},"msg":"incoming request"}
+{"level":30,"time":1769747333023,"pid":21936,"hostname":"prashant","reqId":"req-3p","res":{"statusCode":200},"responseTime":5.10860002040863,"msg":"request completed"}
+{"level":30,"time":1769747353618,"pid":21936,"hostname":"prashant","reqId":"req-3q","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53476},"msg":"incoming request"}
+{"level":30,"time":1769747353618,"pid":21936,"hostname":"prashant","reqId":"req-3q","res":{"statusCode":204},"responseTime":0.3941000699996948,"msg":"request completed"}
+{"level":30,"time":1769747353619,"pid":21936,"hostname":"prashant","reqId":"req-3r","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53407},"msg":"incoming request"}
+{"level":30,"time":1769747353619,"pid":21936,"hostname":"prashant","reqId":"req-3r","res":{"statusCode":204},"responseTime":0.26510000228881836,"msg":"request completed"}
+{"level":30,"time":1769747353620,"pid":21936,"hostname":"prashant","reqId":"req-3s","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53407},"msg":"incoming request"}
+{"level":30,"time":1769747353696,"pid":21936,"hostname":"prashant","reqId":"req-3s","res":{"statusCode":200},"responseTime":75.22759997844696,"msg":"request completed"}
+{"level":30,"time":1769747353697,"pid":21936,"hostname":"prashant","reqId":"req-3t","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53407},"msg":"incoming request"}
+{"level":30,"time":1769747353700,"pid":21936,"hostname":"prashant","reqId":"req-3t","res":{"statusCode":200},"responseTime":3.363300085067749,"msg":"request completed"}
+{"level":30,"time":1769747840788,"pid":21936,"hostname":"prashant","reqId":"req-3u","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":54143},"msg":"incoming request"}
+{"level":20,"time":1769747840789,"pid":21936,"hostname":"prashant","reqId":"req-3u","msg":"starting multipart parsing"}
+{"level":30,"time":1769747840953,"pid":21936,"hostname":"prashant","reqId":"req-3u","res":{"statusCode":201},"responseTime":165.06790006160736,"msg":"request completed"}
+{"level":30,"time":1769747958551,"pid":18472,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769747958551,"pid":18472,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769747959783,"pid":18472,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769747959783,"pid":18472,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769747959783,"pid":18472,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769747963738,"pid":25456,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769747963738,"pid":25456,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769747964841,"pid":25456,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769747964841,"pid":25456,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769747964841,"pid":25456,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769747969223,"pid":25456,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":59970},"msg":"incoming request"}
+{"level":30,"time":1769747969232,"pid":25456,"hostname":"prashant","reqId":"req-1","res":{"statusCode":400},"responseTime":8.256399989128113,"msg":"request completed"}
+{"level":30,"time":1769748166838,"pid":25456,"hostname":"prashant","reqId":"req-2","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55978},"msg":"incoming request"}
+{"level":30,"time":1769748166841,"pid":25456,"hostname":"prashant","reqId":"req-2","res":{"statusCode":204},"responseTime":1.8188000917434692,"msg":"request completed"}
+{"level":30,"time":1769748166841,"pid":25456,"hostname":"prashant","reqId":"req-3","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748166843,"pid":25456,"hostname":"prashant","reqId":"req-3","res":{"statusCode":204},"responseTime":1.0363000631332397,"msg":"request completed"}
+{"level":30,"time":1769748166844,"pid":25456,"hostname":"prashant","reqId":"req-4","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55978},"msg":"incoming request"}
+{"level":30,"time":1769748166945,"pid":25456,"hostname":"prashant","reqId":"req-4","res":{"statusCode":200},"responseTime":100.95469999313354,"msg":"request completed"}
+{"level":30,"time":1769748166947,"pid":25456,"hostname":"prashant","reqId":"req-5","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748166954,"pid":25456,"hostname":"prashant","reqId":"req-5","res":{"statusCode":200},"responseTime":7.514299988746643,"msg":"request completed"}
+{"level":30,"time":1769748168129,"pid":25456,"hostname":"prashant","reqId":"req-6","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168130,"pid":25456,"hostname":"prashant","reqId":"req-6","res":{"statusCode":204},"responseTime":0.7994999885559082,"msg":"request completed"}
+{"level":30,"time":1769748168131,"pid":25456,"hostname":"prashant","reqId":"req-7","req":{"method":"GET","url":"/api/client/audit-logs?page=2&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168137,"pid":25456,"hostname":"prashant","reqId":"req-7","res":{"statusCode":200},"responseTime":5.301900029182434,"msg":"request completed"}
+{"level":30,"time":1769748168280,"pid":25456,"hostname":"prashant","reqId":"req-8","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168281,"pid":25456,"hostname":"prashant","reqId":"req-8","res":{"statusCode":204},"responseTime":0.49029994010925293,"msg":"request completed"}
+{"level":30,"time":1769748168282,"pid":25456,"hostname":"prashant","reqId":"req-9","req":{"method":"GET","url":"/api/client/audit-logs?page=3&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168287,"pid":25456,"hostname":"prashant","reqId":"req-9","res":{"statusCode":200},"responseTime":4.953900098800659,"msg":"request completed"}
+{"level":30,"time":1769748168520,"pid":25456,"hostname":"prashant","reqId":"req-a","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168521,"pid":25456,"hostname":"prashant","reqId":"req-a","res":{"statusCode":204},"responseTime":0.8108999729156494,"msg":"request completed"}
+{"level":30,"time":1769748168523,"pid":25456,"hostname":"prashant","reqId":"req-b","req":{"method":"GET","url":"/api/client/audit-logs?page=4&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748168528,"pid":25456,"hostname":"prashant","reqId":"req-b","res":{"statusCode":200},"responseTime":4.820599913597107,"msg":"request completed"}
+{"level":30,"time":1769748169550,"pid":25456,"hostname":"prashant","reqId":"req-c","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748169551,"pid":25456,"hostname":"prashant","reqId":"req-c","res":{"statusCode":204},"responseTime":0.8201000690460205,"msg":"request completed"}
+{"level":30,"time":1769748169552,"pid":25456,"hostname":"prashant","reqId":"req-d","req":{"method":"OPTIONS","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55978},"msg":"incoming request"}
+{"level":30,"time":1769748169552,"pid":25456,"hostname":"prashant","reqId":"req-d","res":{"statusCode":204},"responseTime":0.4179999828338623,"msg":"request completed"}
+{"level":30,"time":1769748169553,"pid":25456,"hostname":"prashant","reqId":"req-e","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748169560,"pid":25456,"hostname":"prashant","reqId":"req-e","res":{"statusCode":200},"responseTime":7.14110004901886,"msg":"request completed"}
+{"level":30,"time":1769748169562,"pid":25456,"hostname":"prashant","reqId":"req-f","req":{"method":"GET","url":"/api/client/audit-logs?entityType=User&entityId=6","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":56965},"msg":"incoming request"}
+{"level":30,"time":1769748169567,"pid":25456,"hostname":"prashant","reqId":"req-f","res":{"statusCode":200},"responseTime":4.827500104904175,"msg":"request completed"}
+{"level":30,"time":1769748173821,"pid":25456,"hostname":"prashant","reqId":"req-g","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748173822,"pid":25456,"hostname":"prashant","reqId":"req-g","res":{"statusCode":204},"responseTime":0.6097999811172485,"msg":"request completed"}
+{"level":30,"time":1769748173822,"pid":25456,"hostname":"prashant","reqId":"req-h","req":{"method":"OPTIONS","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748173822,"pid":25456,"hostname":"prashant","reqId":"req-h","res":{"statusCode":204},"responseTime":0.2985999584197998,"msg":"request completed"}
+{"level":30,"time":1769748173824,"pid":25456,"hostname":"prashant","reqId":"req-i","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748173829,"pid":25456,"hostname":"prashant","reqId":"req-i","res":{"statusCode":200},"responseTime":4.83709990978241,"msg":"request completed"}
+{"level":30,"time":1769748173831,"pid":25456,"hostname":"prashant","reqId":"req-j","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748173837,"pid":25456,"hostname":"prashant","reqId":"req-j","res":{"statusCode":200},"responseTime":5.04229998588562,"msg":"request completed"}
+{"level":30,"time":1769748174689,"pid":25456,"hostname":"prashant","reqId":"req-k","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748174689,"pid":25456,"hostname":"prashant","reqId":"req-k","res":{"statusCode":204},"responseTime":0.5009000301361084,"msg":"request completed"}
+{"level":30,"time":1769748174690,"pid":25456,"hostname":"prashant","reqId":"req-l","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748174690,"pid":25456,"hostname":"prashant","reqId":"req-l","res":{"statusCode":204},"responseTime":0.3127000331878662,"msg":"request completed"}
+{"level":30,"time":1769748174691,"pid":25456,"hostname":"prashant","reqId":"req-m","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748174702,"pid":25456,"hostname":"prashant","reqId":"req-m","res":{"statusCode":200},"responseTime":10.537299990653992,"msg":"request completed"}
+{"level":30,"time":1769748174704,"pid":25456,"hostname":"prashant","reqId":"req-n","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748174709,"pid":25456,"hostname":"prashant","reqId":"req-n","res":{"statusCode":200},"responseTime":4.5822999477386475,"msg":"request completed"}
+{"level":30,"time":1769748174710,"pid":25456,"hostname":"prashant","reqId":"req-o","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748174714,"pid":25456,"hostname":"prashant","reqId":"req-o","res":{"statusCode":200},"responseTime":3.59469997882843,"msg":"request completed"}
+{"level":30,"time":1769748174715,"pid":25456,"hostname":"prashant","reqId":"req-p","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748174721,"pid":25456,"hostname":"prashant","reqId":"req-p","res":{"statusCode":200},"responseTime":5.5223000049591064,"msg":"request completed"}
+{"level":30,"time":1769748177414,"pid":25456,"hostname":"prashant","reqId":"req-q","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49667},"msg":"incoming request"}
+{"level":30,"time":1769748177419,"pid":25456,"hostname":"prashant","reqId":"req-q","res":{"statusCode":200},"responseTime":5.39959990978241,"msg":"request completed"}
+{"level":30,"time":1769748177421,"pid":25456,"hostname":"prashant","reqId":"req-r","req":{"method":"GET","url":"/api/client/audit-logs?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748177425,"pid":25456,"hostname":"prashant","reqId":"req-r","res":{"statusCode":200},"responseTime":3.601199984550476,"msg":"request completed"}
+{"level":30,"time":1769748178094,"pid":25456,"hostname":"prashant","reqId":"req-s","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748178098,"pid":25456,"hostname":"prashant","reqId":"req-s","res":{"statusCode":200},"responseTime":3.885800004005432,"msg":"request completed"}
+{"level":30,"time":1769748178099,"pid":25456,"hostname":"prashant","reqId":"req-t","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748178104,"pid":25456,"hostname":"prashant","reqId":"req-t","res":{"statusCode":200},"responseTime":4.933899998664856,"msg":"request completed"}
+{"level":30,"time":1769748178106,"pid":25456,"hostname":"prashant","reqId":"req-u","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748178110,"pid":25456,"hostname":"prashant","reqId":"req-u","res":{"statusCode":200},"responseTime":4.097400069236755,"msg":"request completed"}
+{"level":30,"time":1769748178112,"pid":25456,"hostname":"prashant","reqId":"req-v","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":58159},"msg":"incoming request"}
+{"level":30,"time":1769748178116,"pid":25456,"hostname":"prashant","reqId":"req-v","res":{"statusCode":200},"responseTime":3.610599994659424,"msg":"request completed"}
+{"level":30,"time":1769748288502,"pid":16572,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748288502,"pid":16572,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748289683,"pid":16572,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748289683,"pid":16572,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748289683,"pid":16572,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748294610,"pid":21800,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748294610,"pid":21800,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748296338,"pid":6632,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748296338,"pid":6632,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748297840,"pid":3304,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748297840,"pid":3304,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748298922,"pid":3304,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748298922,"pid":3304,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748298922,"pid":3304,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748428278,"pid":3304,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":54333},"msg":"incoming request"}
+{"level":20,"time":1769748428289,"pid":3304,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769748428520,"pid":3304,"hostname":"prashant","reqId":"req-1","res":{"statusCode":201},"responseTime":241.28960001468658,"msg":"request completed"}
+{"level":30,"time":1769748789163,"pid":12328,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748789163,"pid":12328,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748790424,"pid":12328,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748790424,"pid":12328,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748790424,"pid":12328,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748791172,"pid":3688,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748791172,"pid":3688,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748792276,"pid":3688,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748792276,"pid":3688,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748792276,"pid":3688,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748794337,"pid":16468,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748794337,"pid":16468,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748795490,"pid":16468,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748795490,"pid":16468,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748795490,"pid":16468,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748805193,"pid":26368,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748805193,"pid":26368,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748806339,"pid":26368,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748806339,"pid":26368,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748806339,"pid":26368,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748807862,"pid":28576,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748807862,"pid":28576,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748809210,"pid":28576,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748809210,"pid":28576,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748809210,"pid":28576,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748810653,"pid":12504,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748810654,"pid":12504,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748811736,"pid":12504,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748811737,"pid":12504,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748811737,"pid":12504,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748814654,"pid":26004,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748814654,"pid":26004,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748815946,"pid":26004,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748815946,"pid":26004,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748815946,"pid":26004,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748820390,"pid":19988,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748820390,"pid":19988,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748821635,"pid":19988,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748821635,"pid":19988,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748821635,"pid":19988,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748822632,"pid":6360,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769748822632,"pid":6360,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769748823804,"pid":6360,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769748823804,"pid":6360,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769748823804,"pid":6360,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769748903310,"pid":6360,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49676},"msg":"incoming request"}
+{"level":30,"time":1769748903331,"pid":6360,"hostname":"prashant","reqId":"req-1","res":{"statusCode":400},"responseTime":18.309900045394897,"msg":"request completed"}
+{"level":30,"time":1769748906776,"pid":6360,"hostname":"prashant","reqId":"req-2","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49676},"msg":"incoming request"}
+{"level":30,"time":1769748906778,"pid":6360,"hostname":"prashant","reqId":"req-2","res":{"statusCode":400},"responseTime":1.7403000593185425,"msg":"request completed"}
+{"level":30,"time":1769749072461,"pid":13684,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749072461,"pid":13684,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749073762,"pid":13684,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749073763,"pid":13684,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749073763,"pid":13684,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749414600,"pid":21676,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749414601,"pid":21676,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749416569,"pid":796,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749416569,"pid":796,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749418239,"pid":29704,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749418239,"pid":29704,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749419920,"pid":29704,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749419920,"pid":29704,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749419920,"pid":29704,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749423938,"pid":24444,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749423939,"pid":24444,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749425612,"pid":24444,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749425613,"pid":24444,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749425613,"pid":24444,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749430521,"pid":4696,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749430522,"pid":4696,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749432315,"pid":4696,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749432315,"pid":4696,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749432315,"pid":4696,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749505529,"pid":5096,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749505529,"pid":5096,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749507052,"pid":5096,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749507052,"pid":5096,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749507052,"pid":5096,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749516911,"pid":5096,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":50392},"msg":"incoming request"}
+{"level":20,"time":1769749516920,"pid":5096,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769749516931,"pid":5096,"hostname":"prashant","reqId":"req-1","res":{"statusCode":500},"responseTime":19.228999972343445,"msg":"request completed"}
+{"level":30,"time":1769749527739,"pid":5096,"hostname":"prashant","reqId":"req-2","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":50392},"msg":"incoming request"}
+{"level":20,"time":1769749527741,"pid":5096,"hostname":"prashant","reqId":"req-2","msg":"starting multipart parsing"}
+{"level":30,"time":1769749527785,"pid":5096,"hostname":"prashant","reqId":"req-2","res":{"statusCode":400},"responseTime":45.0304000377655,"msg":"request completed"}
+{"level":30,"time":1769749557232,"pid":25940,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749557232,"pid":25940,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749559086,"pid":25940,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749559086,"pid":25940,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749559086,"pid":25940,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749561776,"pid":27508,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749561776,"pid":27508,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749563487,"pid":27508,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749563487,"pid":27508,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749563487,"pid":27508,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749563961,"pid":27508,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63031},"msg":"incoming request"}
+{"level":20,"time":1769749563967,"pid":27508,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769749563985,"pid":27508,"hostname":"prashant","reqId":"req-1","res":{"statusCode":400},"responseTime":23.44729995727539,"msg":"request completed"}
+{"level":30,"time":1769749571544,"pid":29424,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749571544,"pid":29424,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749573282,"pid":23108,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749573283,"pid":23108,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749575012,"pid":23108,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749575012,"pid":23108,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749575012,"pid":23108,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749595334,"pid":26392,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749595335,"pid":26392,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749597034,"pid":26392,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749597034,"pid":26392,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749597034,"pid":26392,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769749599268,"pid":12824,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769749599269,"pid":12824,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769749600902,"pid":12824,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769749600902,"pid":12824,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769749600902,"pid":12824,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769750919892,"pid":26476,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769750919892,"pid":26476,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769750922209,"pid":26476,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769750922209,"pid":26476,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769750922209,"pid":26476,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769750929224,"pid":18700,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769750929225,"pid":18700,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769750930828,"pid":18700,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769750930828,"pid":18700,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769750930828,"pid":18700,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769750933627,"pid":22508,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769750933627,"pid":22508,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769750935532,"pid":22508,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769750935532,"pid":22508,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769750935532,"pid":22508,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769750935797,"pid":22508,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52666},"msg":"incoming request"}
+{"level":20,"time":1769750935804,"pid":22508,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769750935830,"pid":22508,"hostname":"prashant","reqId":"req-1","res":{"statusCode":400},"responseTime":31.97000002861023,"msg":"request completed"}
+{"level":30,"time":1769750957198,"pid":24284,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769750957199,"pid":24284,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769750959652,"pid":24284,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769750959652,"pid":24284,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769750959652,"pid":24284,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769750980160,"pid":25492,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769750980161,"pid":25492,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769750981528,"pid":25492,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769750981528,"pid":25492,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769750981528,"pid":25492,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751049491,"pid":30048,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751049492,"pid":30048,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751051168,"pid":26968,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751051169,"pid":26968,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751052431,"pid":26968,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751052431,"pid":26968,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751052431,"pid":26968,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751053794,"pid":19712,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751053794,"pid":19712,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751055046,"pid":19712,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751055046,"pid":19712,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751055046,"pid":19712,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751059106,"pid":16440,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751059107,"pid":16440,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751060331,"pid":16440,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751060331,"pid":16440,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751060331,"pid":16440,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751061716,"pid":22780,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751061717,"pid":22780,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751062906,"pid":22780,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751062907,"pid":22780,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751062907,"pid":22780,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751064332,"pid":21372,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751064332,"pid":21372,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751065587,"pid":21372,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751065587,"pid":21372,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751065587,"pid":21372,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751066594,"pid":26192,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751066595,"pid":26192,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751067786,"pid":26192,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751067786,"pid":26192,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751067786,"pid":26192,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751071299,"pid":8224,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751071299,"pid":8224,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751072863,"pid":30424,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751072863,"pid":30424,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751074041,"pid":30424,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751074041,"pid":30424,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751074041,"pid":30424,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751098832,"pid":8624,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751098833,"pid":8624,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751099981,"pid":8624,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751099981,"pid":8624,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751099981,"pid":8624,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751111734,"pid":17844,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751111734,"pid":17844,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751112928,"pid":17844,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751112928,"pid":17844,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751112928,"pid":17844,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751132741,"pid":12928,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751132742,"pid":12928,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751133896,"pid":12928,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751133896,"pid":12928,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751133896,"pid":12928,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751135978,"pid":12756,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751135978,"pid":12756,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751137172,"pid":12712,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751137172,"pid":12712,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751138556,"pid":12712,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751138556,"pid":12712,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751138556,"pid":12712,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751143769,"pid":26336,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751143770,"pid":26336,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751144935,"pid":26336,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751144935,"pid":26336,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751144935,"pid":26336,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751186626,"pid":9160,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751186627,"pid":9160,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751187952,"pid":9160,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751187953,"pid":9160,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751187953,"pid":9160,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751190825,"pid":20040,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751190826,"pid":20040,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751192193,"pid":20040,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751192193,"pid":20040,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751192193,"pid":20040,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751213183,"pid":16348,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751213183,"pid":16348,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751214405,"pid":16348,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751214405,"pid":16348,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751214405,"pid":16348,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751218118,"pid":20892,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751218118,"pid":20892,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751219950,"pid":22452,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751219950,"pid":22452,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751221108,"pid":22452,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751221108,"pid":22452,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751221108,"pid":22452,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751394441,"pid":30360,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751394442,"pid":30360,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751396554,"pid":30584,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751396555,"pid":30584,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751397834,"pid":30584,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751397834,"pid":30584,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751397834,"pid":30584,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769751400025,"pid":30584,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51775},"msg":"incoming request"}
+{"level":20,"time":1769751400030,"pid":30584,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769751400037,"pid":30584,"hostname":"prashant","reqId":"req-1","res":{"statusCode":500},"responseTime":11.410799980163574,"msg":"request completed"}
+{"level":30,"time":1769751409485,"pid":30584,"hostname":"prashant","reqId":"req-2","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51775},"msg":"incoming request"}
+{"level":20,"time":1769751409487,"pid":30584,"hostname":"prashant","reqId":"req-2","msg":"starting multipart parsing"}
+{"level":30,"time":1769751409489,"pid":30584,"hostname":"prashant","reqId":"req-2","res":{"statusCode":500},"responseTime":3.0927999019622803,"msg":"request completed"}
+{"level":30,"time":1769751427054,"pid":30584,"hostname":"prashant","reqId":"req-3","req":{"method":"POST","url":"/api/client/intake","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":51775},"msg":"incoming request"}
+{"level":20,"time":1769751427055,"pid":30584,"hostname":"prashant","reqId":"req-3","msg":"starting multipart parsing"}
+{"level":30,"time":1769751427056,"pid":30584,"hostname":"prashant","reqId":"req-3","res":{"statusCode":500},"responseTime":1.9132999181747437,"msg":"request completed"}
+{"level":30,"time":1769751518981,"pid":6828,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769751518981,"pid":6828,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769751520310,"pid":6828,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769751520310,"pid":6828,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769751520310,"pid":6828,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752269157,"pid":14916,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752269157,"pid":14916,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752270724,"pid":14916,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769752270724,"pid":14916,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769752270724,"pid":14916,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752282043,"pid":11128,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752282044,"pid":11128,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752283515,"pid":11128,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769752283515,"pid":11128,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769752283515,"pid":11128,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752290610,"pid":10496,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752290610,"pid":10496,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752291812,"pid":10496,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769752291812,"pid":10496,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769752291812,"pid":10496,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752401758,"pid":10496,"hostname":"prashant","reqId":"req-1","req":{"method":"POST","url":"/api/document/upload","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":53227},"msg":"incoming request"}
+{"level":20,"time":1769752401769,"pid":10496,"hostname":"prashant","reqId":"req-1","msg":"starting multipart parsing"}
+{"level":30,"time":1769752401819,"pid":10496,"hostname":"prashant","reqId":"req-1","res":{"statusCode":201},"responseTime":58.8403000831604,"msg":"request completed"}
+{"level":30,"time":1769752402843,"pid":24688,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752402843,"pid":24688,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752404275,"pid":24688,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769752404275,"pid":24688,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769752404275,"pid":24688,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752428137,"pid":21248,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752428138,"pid":21248,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752429117,"pid":11924,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752429117,"pid":11924,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752430459,"pid":11924,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769752430459,"pid":11924,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769752430459,"pid":11924,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769752777830,"pid":9188,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752777830,"pid":9188,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769752779046,"pid":9188,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769752821139,"pid":22876,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752821139,"pid":22876,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769752822596,"pid":22876,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769752825026,"pid":24308,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752825027,"pid":24308,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769752826468,"pid":24308,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769752828499,"pid":19784,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752828500,"pid":19784,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769752829899,"pid":19784,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769752830845,"pid":25084,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752830845,"pid":25084,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769752832298,"pid":15852,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769752832298,"pid":15852,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769752833724,"pid":15852,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753030569,"pid":14780,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753030569,"pid":14780,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769753031787,"pid":14780,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753813632,"pid":8512,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753813632,"pid":8512,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769753815083,"pid":8512,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753820330,"pid":22204,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753820331,"pid":22204,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769753821587,"pid":22204,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753824381,"pid":19504,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753824382,"pid":19504,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769753825840,"pid":19504,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753865907,"pid":11008,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753865907,"pid":11008,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":50,"time":1769753867284,"pid":11008,"hostname":"prashant","err":{"type":"FastifyError","message":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"","stack":"FastifyError: Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\"\n    at Boot.<anonymous> (D:\\Training\\Legal Tech\\backend\\node_modules\\fastify\\lib\\route.js:424:21)\n    at Object.onceWrapper (node:events:622:28)\n    at Boot.emit (node:events:520:35)\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:102:12\n    at D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\boot.js:437:7\n    at done (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:228:5)\n    at check (D:\\Training\\Legal Tech\\backend\\node_modules\\avvio\\lib\\plugin.js:252:9)\n    at node:internal/process/task_queues:149:7\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)","code":"FST_ERR_SCH_VALIDATION_BUILD","name":"FastifyError","statusCode":500},"msg":"Failed building the validation schema for POST: /api/auth/signup, due to error strict mode: unknown keyword: \"errorMessage\""}
+{"level":30,"time":1769753871473,"pid":4428,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753871473,"pid":4428,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753872945,"pid":4428,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753872945,"pid":4428,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753872945,"pid":4428,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769753879134,"pid":2964,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753879134,"pid":2964,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753880440,"pid":2964,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753880441,"pid":2964,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753880441,"pid":2964,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769753882054,"pid":6200,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753882054,"pid":6200,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753883471,"pid":6200,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753883471,"pid":6200,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753883471,"pid":6200,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769753885240,"pid":30392,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753885240,"pid":30392,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753886760,"pid":30392,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753886760,"pid":30392,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753886760,"pid":30392,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769753889593,"pid":8372,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753889594,"pid":8372,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753891009,"pid":8372,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753891009,"pid":8372,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753891009,"pid":8372,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769753891995,"pid":27756,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753891995,"pid":27756,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753893160,"pid":23572,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753893161,"pid":23572,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753894909,"pid":5632,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769753894909,"pid":5632,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769753896428,"pid":5632,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769753896428,"pid":5632,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769753896428,"pid":5632,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769756856976,"pid":1068,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769756856977,"pid":1068,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769756858247,"pid":1068,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769756858247,"pid":1068,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769756858247,"pid":1068,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769764521326,"pid":23688,"hostname":"prashant","msg":"Database connected"}
+{"level":30,"time":1769764521326,"pid":23688,"hostname":"prashant","msg":"sequelize.sync({ alter: true }) enabled (DEV ONLY)"}
+{"level":30,"time":1769764522865,"pid":23688,"hostname":"prashant","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1769764522865,"pid":23688,"hostname":"prashant","msg":"Server listening at http://172.22.240.1:3000"}
+{"level":30,"time":1769764522865,"pid":23688,"hostname":"prashant","msg":"Server listening at http://10.12.10.60:3000"}
+{"level":30,"time":1769764543248,"pid":23688,"hostname":"prashant","reqId":"req-1","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55101},"msg":"incoming request"}
+{"level":30,"time":1769764543261,"pid":23688,"hostname":"prashant","reqId":"req-1","res":{"statusCode":204},"responseTime":10.669800043106079,"msg":"request completed"}
+{"level":30,"time":1769764543262,"pid":23688,"hostname":"prashant","reqId":"req-2","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":57213},"msg":"incoming request"}
+{"level":30,"time":1769764543263,"pid":23688,"hostname":"prashant","reqId":"req-2","res":{"statusCode":204},"responseTime":0.8265000581741333,"msg":"request completed"}
+{"level":30,"time":1769764543263,"pid":23688,"hostname":"prashant","reqId":"req-3","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":50320},"msg":"incoming request"}
+{"level":30,"time":1769764543264,"pid":23688,"hostname":"prashant","reqId":"req-3","res":{"statusCode":204},"responseTime":0.635699987411499,"msg":"request completed"}
+{"level":30,"time":1769764543265,"pid":23688,"hostname":"prashant","reqId":"req-4","req":{"method":"OPTIONS","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":59471},"msg":"incoming request"}
+{"level":30,"time":1769764543266,"pid":23688,"hostname":"prashant","reqId":"req-4","res":{"statusCode":204},"responseTime":0.6145999431610107,"msg":"request completed"}
+{"level":30,"time":1769764543267,"pid":23688,"hostname":"prashant","reqId":"req-5","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55101},"msg":"incoming request"}
+{"level":30,"time":1769764543368,"pid":23688,"hostname":"prashant","reqId":"req-5","res":{"statusCode":200},"responseTime":100.37150001525879,"msg":"request completed"}
+{"level":30,"time":1769764543370,"pid":23688,"hostname":"prashant","reqId":"req-6","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55101},"msg":"incoming request"}
+{"level":30,"time":1769764543378,"pid":23688,"hostname":"prashant","reqId":"req-6","res":{"statusCode":200},"responseTime":7.3623000383377075,"msg":"request completed"}
+{"level":30,"time":1769764543380,"pid":23688,"hostname":"prashant","reqId":"req-7","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55101},"msg":"incoming request"}
+{"level":30,"time":1769764543386,"pid":23688,"hostname":"prashant","reqId":"req-7","res":{"statusCode":200},"responseTime":6.188400030136108,"msg":"request completed"}
+{"level":30,"time":1769764543388,"pid":23688,"hostname":"prashant","reqId":"req-8","req":{"method":"GET","url":"/api/client/intakes?page=1&limit=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":55101},"msg":"incoming request"}
+{"level":30,"time":1769764543395,"pid":23688,"hostname":"prashant","reqId":"req-8","res":{"statusCode":200},"responseTime":5.769599914550781,"msg":"request completed"}
