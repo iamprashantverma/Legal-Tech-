@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0e49c6;
+    line-height: 1.2;
+  }
+}

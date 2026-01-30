@@ -1,0 +1,180 @@
+$primary: #2563eb;
+$success: #16a34a;
+$warning: #f59e0b;
+$danger: #dc2626;
+$border: #e5e7eb;
+$text-dark: #111827;
+$text-muted: #6b7280;
+$bg-light: #f8fafc;
+
+.intakes__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.intakes__filter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.intakes__filter-icon {
+  font-size: 16px;
+}
+
+.intakes__filter-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.intakes__filter {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+
+.table-container {
+  margin-top: 16px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid $border;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 14px 16px;
+    border-bottom: 1px solid $border;
+    text-align: left;
+    font-size: 14px;
+    color: $text-dark;
+  }
+
+  th {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: $text-muted;
+    font-weight: 600;
+    background: $bg-light;
+  }
+
+  tbody tr:hover {
+    background: #f9fafb;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+/* Status Badges */
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &.pending {
+    background: rgba($warning, 0.15);
+    color: $warning;
+  }
+
+  &.approved {
+    background: rgba($success, 0.15);
+    color: $success;
+  }
+
+  &.rejected {
+    background: rgba($danger, 0.15);
+    color: $danger;
+  }
+
+  &.in-review {
+    background: rgba($primary, 0.15);
+    color: $primary;
+  }
+}
+
+/* Action Button */
+.view-btn {
+  display: inline-block;
+  border: 1px solid $primary;
+  background: transparent;
+  color: $primary;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+/* Empty / Loading Rows */
+.table-container td[colspan] {
+  text-align: center;
+  color: $text-muted;
+  font-size: 14px;
+  padding: 32px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid $border;
+
+  span {
+    font-size: 14px;
+    color: $text-muted;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid $border;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    color: $text-dark;
+    transition: all 0.2s ease;
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover {
+      background: $primary;
+      color: #fff;
+      border-color: $primary;
+    }
+  }
+}

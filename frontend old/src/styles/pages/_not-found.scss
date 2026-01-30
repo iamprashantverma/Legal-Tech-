@@ -1,0 +1,41 @@
+
+.not-found {
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+
+  &__code {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #111827;
+  }
+
+  &__description {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    background-color: #2563eb;
+    color: #ffffff;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #1d4ed8;
+    }
+  }
+}

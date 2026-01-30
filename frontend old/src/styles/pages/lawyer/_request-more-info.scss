@@ -1,0 +1,87 @@
+$request-border: #333;
+$bg-light: #f9f9f9;
+
+.request-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.request-card {
+  width: 700px;
+  border: 2px solid $request-border;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.request-header {
+  text-align: center;
+  font-weight: 600;
+  padding: 12px;
+  border-bottom: 2px solid $request-border;
+}
+
+.request-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: 2px solid $request-border;
+  font-size: 14px;
+}
+
+.request-options {
+  display: flex;
+  gap: 40px;
+  padding: 16px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+
+  input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+}
+
+.request-message {
+  margin: 0 16px 16px;
+  padding: 12px;
+  border: 2px solid $request-border;
+  background: $bg-light;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.request-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 16px;
+}
+
+.btn {
+  padding: 6px 18px;
+  border: 2px solid $request-border;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+
+  &.primary {
+    font-weight: 600;
+  }
+
+  &.secondary {
+    background: #eee;
+  }
+
+  &:hover {
+    opacity: 0.85;
+  }
+}

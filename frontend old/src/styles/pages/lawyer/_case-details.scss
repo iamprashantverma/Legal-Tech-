@@ -1,0 +1,79 @@
+.case-details {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+
+  /* Back button */
+  &__back-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* Header */
+  &__header {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111827;
+  }
+
+  /* Sections */
+  &__section {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 12px;
+  }
+
+  /* Grid for case info */
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+
+    p {
+      font-size: 14px;
+      color: #374151;
+    }
+
+    strong {
+      color: #111827;
+    }
+  }
+
+  /* Text inside sections */
+  p {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 6px;
+  }
+
+  /* Loading & error states */
+  &__loading,
+  &__error {
+    padding: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+  }
+}

@@ -1,0 +1,52 @@
+@use './pages/login';
+@use './pages/signup';
+@use './layout/lawyer-layout';
+@use './component/common/navbar';
+@use './component/common/pagination';
+@use './pages/not-found';
+@use './pages/home';
+@use './component/caseCard/card';
+@use './pages/lawyer/caselist';
+@use './pages/lawyer/case-details';
+@use './pages/client/intake-form' ;
+@use './pages/lawyer/request-more-info';
+@use './pages/client/intake-success';
+@use './layout/client-layout';
+@use './pages/client/intakes';
+@use './pages/client/client-dashboard';
+@use './pages/lawyer/lawyer-dashboard';
+@use './pages/client/intake-details';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, sans-serif;
+  background-color: #f9fafb;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 13px;
+  }
+}
